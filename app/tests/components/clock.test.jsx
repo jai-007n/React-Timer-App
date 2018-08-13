@@ -31,7 +31,7 @@ describe('formatSeconds',()=>{
 
     expect(actual).toBe(expected);
   });
-  it('should format seconds when less tyhan 10',()=>{
+  it('should format seconds when less than 10',()=>{
     var clock=TestUtils.renderIntoDocument(<Clock/>);
     var seconds=61;
     var expected='01:01';

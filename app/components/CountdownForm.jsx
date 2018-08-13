@@ -6,6 +6,7 @@ onSubmit:function(e)
 {
   e.preventDefault();
   var strSeconds=this.refs.seconds.value;
+  console.log('input',$('input').length);
 
   if(strSeconds.match(/^[0-9]*$/))
   {
